@@ -1,3 +1,4 @@
+
 /**
  * Escape characters with special meaning either inside or outside the character sets
  * @param str, the string to escape
