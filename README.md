@@ -25,7 +25,9 @@ node.setAttribute('id', nodeSlug);
 ```
 Output:
 ```html
-<h1 id="how-will-mobile-commerce-impact-2022"><span>How will mobile commerce impact 2022?</span></h1>
+<h1 id="how-will-mobile-commerce-impact-2022">
+    <span>How will mobile commerce impact 2022?</span>
+</h1>
 ```
 
 #### Slugify w/ String Attribute
