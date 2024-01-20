@@ -76,25 +76,11 @@ Output:
 ```javascript
 const slugifier = new Slugify();
 
-// Example 1
-const result1 = slugifier.generate('Ist dein Name Sophia?');
-console.log(result1); // Output: "ist-dein-name-sophia"
-
-// Example 2
-const result2 = slugifier.generate('Sophia, Ärztin aus Hamburg');
-console.log(result2); // Output: "sophia-aerztin-aus-hamburg"
-
-// Example 3
-const result3 = slugifier.generate('Wie geht es dir, Sophia?');
-console.log(result3); // Output: "wie-geht-es-dir-sophia"
-
-// Example 4
-const result4 = slugifier.generate('Süße Sophia, schön und klug');
-console.log(result4); // Output: "suesse-sophia-schoen-und-klug"
-
-// Example 5
-const result5 = slugifier.generate("Sophia's Geburtstag");
-console.log(result5); // Output: "sophias-geburtstag"
+slugifier.generate('Ist dein Name Sophia?'); // Output: "ist-dein-name-sophia"
+slugifier.generate('Sophia, Ärztin aus Hamburg'); // Output: "sophia-aerztin-aus-hamburg"
+slugifier.generate('Wie geht es dir, Sophia?'); // Output: "wie-geht-es-dir-sophia"
+slugifier.generate('Süße Sophia, schön und klug'); // Output: "suesse-sophia-schoen-und-klug"
+slugifier.generate("Sophia's Geburtstag"); // Output: "sophias-geburtstag"
 ```
 
 ### Additional examples with special characters and delimiters
@@ -102,25 +88,12 @@ console.log(result5); // Output: "sophias-geburtstag"
 ```js
 const slugifier = new Slugify();
 
-// Example 1
-const result1 = slugifier.generate('#1 Best in Class');
-console.log(result1); // Output: "number-1-best-in-class"
+slugifier.generate('Hello, world!'); // Output: "hello-world"
+slugifier.generate('Hello, world!'); // Output: "hello_world"
+slugifier.generate('Hello, world!'); // Output: "hello-world"
 
-// Example 2
-const result2 = slugifier.generate('hello@example.com');
-console.log(result2); // Output: "hello-at-example-com"
-
-// Example 3
-const result3 = slugifier.generate('Hello, world!');
-console.log(result3); // Output: "hello-world"
-
-// Example 4
-const result4 = slugifier.generate('Hello, world!');
-console.log(result4); // Output: "hello_world"
-
-// Example 5
-const result5 = slugifier.generate('Hello, world!');
-console.log(result5); // Output: "hello-world"
+slugifier.generate('#1 Best in Class'); // Output: "number-1-best-in-class"
+slugifier.generate('hello@example.com'); // Output: "hello-at-example-com"
 ```
 
 ## Build Process
