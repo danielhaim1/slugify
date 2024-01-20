@@ -9,9 +9,10 @@ Slugify is an all-purpose slug generator that converts text into clean, SEO-frie
 ## Demo
 
 
-<a target="_blank" href="https://codepen.io/danielhaim/pen/VwqqoKw">
+<a target="_blank" href="https://codepen.io/danielhaim/pen/NWJgNVN">
     <img src="https://raw.githubusercontent.com/danielhaim1/slugify/6f6b35928ab0b6cd69e3b0cb1e2d3062c6b3e05d/demo/demo.png" width="100%" height="auto" alt="Multilang Slugify Demo">
 </a>
+
 ------------
 
 ## Supported Languages
