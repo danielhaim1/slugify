@@ -23,6 +23,14 @@ You can install this module via npm:
 $ npm i @danielhaim/slugify
 ```
 
+## NPM
+
+```js
+import slugify from "https://esm.sh/@danielhaim/slugify";
+
+const slugifier = new Slugify();
+```
+
 ------------
 
 ## Examples
@@ -37,7 +45,7 @@ Input:
 <h2><span>Süße Sophia, schön und klug</span></h2>
 ```
 
-```javascript
+```js
 // Function to generate slugs
 function generateSlug(titleElement) {
   const titleContent = titleElement.textContent || '';
@@ -73,7 +81,7 @@ Output:
 
 ### German special characters
 
-```javascript
+```js
 const slugifier = new Slugify();
 
 slugifier.generate('Ist dein Name Sophia?'); // Output: "ist-dein-name-sophia"
