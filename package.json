@@ -1,19 +1,19 @@
 {
   "name": "@danielhaim/slugify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A multilingual tool for generating SEO-friendly slugs from strings.",
-    "keywords": [
-      "Slugify",
-      "Slug Generator",
-      "URL",
-      "SEO",
-      "Multilingual Slug",
-      "String to Slug",
-      "Permalink",
-      "URL friendly",
-      "Heading Slug",
-      "Text Processing"
-    ],
+  "keywords": [
+    "Slugify",
+    "Slug Generator",
+    "URL",
+    "SEO",
+    "Multilingual Slug",
+    "String to Slug",
+    "Permalink",
+    "URL friendly",
+    "Heading Slug",
+    "Text Processing"
+  ],
   "homepage": "https://github.com/danielhaim1/slugify#readme",
   "bugs": {
     "url": "https://github.com/danielhaim1/slugify/issues"
