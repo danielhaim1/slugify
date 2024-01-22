@@ -1,8 +1,8 @@
-import { Slugify } from '../index.js';
+import { slugify } from '../index.js';
 
 const createTest = (description, input, expected) => {
     test(description, () => {
-        const slugifier = new Slugify();
+        const slugifier = new slugify();
         const output = slugifier.generate(input);
         expect(output).toEqual(expected);
     });

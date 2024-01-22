@@ -1,6 +1,6 @@
 import { defaultReplacements } from './Replacements.js';
 
-export class Slugify {
+export class slugify {
     constructor (replacements = defaultReplacements) {
         this.replacements = replacements;
     }

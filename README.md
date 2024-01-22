@@ -35,7 +35,8 @@ $ npm i @danielhaim/slugify
 ```js
 import slugify from "https://esm.sh/@danielhaim/slugify";
 
-const slugifier = new Slugify();
+const slugify = new slugify();
+console.log(slugify.generate("Hello World!")) // returns hello-world
 ```
 
 ------------
