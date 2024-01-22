@@ -64,7 +64,7 @@ export class slugify {
             return processedStr;
         } catch (error) {
             console.error(`Error in generate method: ${error.message}`);
-            throw error; // Rethrow the error after logging
+            throw error;
         }
     }
 

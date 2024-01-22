@@ -1,4 +1,4 @@
-import { slugify } from '../index.js';
+import slugify from '../index.js';
 
 const createTest = (description, input, expected) => {
     test(description, () => {

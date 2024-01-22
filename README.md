@@ -33,7 +33,7 @@ $ npm i @danielhaim/slugify
 ## NPM
 
 ```js
-import slugify from "https://esm.sh/@danielhaim/slugify";
+import slugify from './path/to/slugify/index.js';
 
 const slugify = new slugify();
 console.log(slugify.generate("Hello World!")) // returns hello-world

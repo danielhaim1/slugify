@@ -1,7 +1,8 @@
 import { slugify } from './src/index.js';
+
 // Export for Node.js environment
 if (typeof module === 'object' && module.exports) {
-  module.exports = { slugify };
+  module.exports = slugify;
 }
 
 // Export for web environment
