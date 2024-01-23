@@ -67,5 +67,10 @@ export class slugify {
             throw error;
         }
     }
+}
 
+if (typeof module === 'object' && module.exports) {
+  module.exports = {
+    slugify
+  };
 }
