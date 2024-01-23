@@ -22,7 +22,7 @@ module.exports = [{
     target: "web",
     entry: "./index.js",
     output: {
-        filename: "Slugify.amd.js",
+        filename: "slugify.amd.js",
         path: path.resolve(__dirname, "dist")
     },
     optimization: {
@@ -57,7 +57,7 @@ module.exports = [{
     target: "node",
     entry: "./index.js",
     output: {
-        filename: "Slugify.js",
+        filename: "slugify.js",
         path: path.resolve(__dirname, "dist"),
         libraryTarget: "commonjs2"
     },

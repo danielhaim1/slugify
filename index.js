@@ -1,11 +1,13 @@
 import { slugify } from './src/index.js';
 
+const exports = { slugify };
+
 // Export for Node.js environment
 if (typeof module === 'object' && module.exports) {
-  module.exports = slugify;
+    module.exports = exports;
 }
 
 // Export for web environment
 if (typeof window === 'object') {
-  window.slugify = slugify;
+    Object.assign(window, exports);
 }
