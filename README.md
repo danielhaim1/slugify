@@ -33,10 +33,10 @@ $ npm i @danielhaim/slugify
 ## NPM
 
 ```js
-import slugify from './path/to/slugify/index.js';
+import { slugify } from './path/to/slugify/index.js';
 
-const slugify = new slugify();
-console.log(slugify.generate("Hello World!")) // returns hello-world
+const slugifier = new slugify();
+console.log(slugifier.generate("Hello World!")); // returns "hello-world"
 ```
 
 ------------
@@ -57,7 +57,7 @@ Input:
 // Function to generate slugs
 function generateSlug(titleElement) {
   const titleContent = titleElement.textContent || '';
-  const slugifier = new Slugify();
+  const slugifier = new slugify();
   const slugged = slugifier.generate(titleContent);
   return slugged;
 }
@@ -90,7 +90,7 @@ Output:
 ### German special characters
 
 ```js
-const slugifier = new Slugify();
+const slugifier = new slugify();
 
 slugifier.generate('Ist dein Name Sophia?'); // Output: "ist-dein-name-sophia"
 slugifier.generate('Sophia, Ärztin aus Hamburg'); // Output: "sophia-aerztin-aus-hamburg"
@@ -102,7 +102,7 @@ slugifier.generate("Sophia's Geburtstag"); // Output: "sophias-geburtstag"
 ### Additional examples with special characters and delimiters
 
 ```js
-const slugifier = new Slugify();
+const slugifier = new slugify();
 
 slugifier.generate('Hello, world!'); // Output: "hello-world"
 slugifier.generate('Hello, world!'); // Output: "hello_world"
