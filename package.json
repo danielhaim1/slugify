@@ -1,6 +1,6 @@
 {
   "name": "@danielhaim/slugify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A multilingual tool for generating SEO-friendly slugs from strings.",
   "keywords": [
     "Slugify",
